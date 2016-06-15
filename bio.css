@@ -1,13 +1,16 @@
-h1{
-     font-size:60px;
-    background-color: rgb(120, 30, 60);
-    /*color: rgb(250, 255, 250);*/
-    color: #FAFFFA;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
+body{
+	font-family: "Crimson Text", serif;
+	background-color: #F2FFFC;
 }
-
+h1{
+	font-family: "Open Sans Condensed", sans-serif;
+	text-align: center;
+	color: #000000;
+	background-color: #851944;
+}
 h2{
-    font-size: 40px;   
-    font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+p{
+	text-align: justify;
 }
