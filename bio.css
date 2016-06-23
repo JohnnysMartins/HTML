@@ -15,15 +15,21 @@ body{
     border-bottom: 10px solid #000;
     text-transform: uppercase;
 }
+div{
+    width:50%;
+    margin: 0 auto;
+}
 main a {
     color: #851944;
 }
 h2{
     font-size: 40px;
 	font-family: "Open Sans Condensed", sans-serif;
+    float: both;
 }
 p{
 	text-align: justify;
+    margin: 30px 0;
 }
 blockquote{
     background-color: #D3DDDA;
@@ -84,4 +90,27 @@ article {
     text-align: center;
     background-color: #E6E7E8;
 }
-
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+aside, img{
+    box-sizing: border-box;
+    float: right;
+    width:  15%;
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+}
+aside{
+    clear: right;
+    box-sizing: border-box;
+}
+main {
+    float: left;
+    width: 85%;
+}
+footer{
+    clear: both;
+}
