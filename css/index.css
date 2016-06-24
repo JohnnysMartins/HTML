@@ -1,3 +1,16 @@
+.inicio-post{
+    background-color: #F2FFFC;
+    position: absolute;
+    color: black;
+    top: 5em;
+    left: 22%;
+    right: 1em;
+    height: 8em;
+    color: #000;
+}
+header {
+  position: relative;
+}
 .foto-home {
     height: 200px;
 }
@@ -5,6 +18,67 @@
     text-transform: lowercase;
     font-size: .5em;
 }
+.palavra-home{
+    font-family: "Shadows Into Light";
+    color: #D5447E;
+
+}
+.eficiencia {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+.boas-praticas{
+    position: absolute;
+    top: 70%;
+    left: 61%;
+}
+.codigo-limpo{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+}
+.css3{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.html5{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.javascript{
+    position: absolute;
+    top: 20%;
+    left: 57%;
+}
+.acessibilidade{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.Responsivo{
+    position: absolute;
+    top: 36%;
+    left: 80%;
+}
+.otimizacoes{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.agilidade{
+    position: absolute;
+    top: 11%;
+    left: 28%;
+}
+.design{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
 .saudacao p {
     font-size: 1.5;
     color: #99A;
@@ -33,7 +107,8 @@
     color: #FFF;
     padding: .5em;
     border: .2em solid black;
-    width: 40ch auto;
+    width: 30ch;
+    margin: 1em auto;
     display: block;
     text-align: center;
 }
@@ -51,7 +126,7 @@
     border-top: .5em solid #000;
     border-bottom: .5em solid #000;
 }
-.trabalhos h2 {
+h2 {
     color: #FFF;
 }
 .trabalhos ul {
@@ -68,12 +143,21 @@
 }
 .blog {
     background-color: #999;
-    color: #FFF;
-    border-bottom: .5empx solid #851944;
+    position: relative;
 }
 .blog small {
+    color: #FFF;
     position: relative;
     top: -2em;
+}
+.mais-recente {
+  background-color: #F2FFFC;
+}
+.blog .mais-recente a {
+  color: #F26;
+}
+.blog li {
+  width: 30%;
 }
 .blog li a {
     color: #FCF;
