@@ -1,3 +1,6 @@
+html{
+    font-size: 100%;
+}
 body{
 	font-family: "Crimson Text", serif;
 	background-color: #F2FFFC;
@@ -8,36 +11,37 @@ h1{
     text-transform: uppercase;
 }
 .titulo-principal{
-    font-size: 60px;
+    font-size: 300%;
 	font-family: "Open Sans Condensed", sans-serif;
 	text-align: center;
 	color: #FFF;
 	background-color: #851944;
-    padding: 25px;
+    padding: 2rem;
     margin: 0;
-    border-bottom: 10px solid #000;
+    border-bottom: 0.5rem solid #000;
 }
 .container {
     width: 720px;
     margin: 0px auto;
-    padding: 40px 40px 80px;
+    padding: 2rem 2rem 4rem;
 }
 main a {
     color: #851944;
 }
 h2{
-    font-size: 30px;
+    font-size: 150%;
     clear: both;
 	font-family: "Open Sans Condensed", sans-serif;
 }
-p{
+
+main p{
 	text-align: justify;
     margin: 30px 0;
 }
 blockquote{
     background-color: #D3DDDA;
-    padding: 16px;
-    border: 10px solid #C2CCCA;
+    padding: 1em;
+    border: .5em solid #C2CCCA;
     width: 250px;
     margin: 0;
 }
@@ -53,8 +57,8 @@ blockquote{
 }
 .icones-sociais a{
 
-    width: 40px;
-    height: 40px;
+    width: 2em;
+    height: 2em;
     display: inline-block;
     text-indent: -9999px;
 }
@@ -68,7 +72,7 @@ blockquote{
     background-image: url(C:/Users/johnn/projeto/projeto-bio/img/linkedin.png);
 }
 nav h1{
-    font-size: 30px;
+    font-size: 150%;
     margin-bottom: 25px;
 }
 nav a {
@@ -81,15 +85,15 @@ nav a {
     color: #F2FFFC;
 }
 article {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
+    padding-bottom: 1.5em;
+    border-bottom: .5em solid #ccc;
+    margin-bottom: 1em;
 }
 aside, .minha-foto{
     box-sizing: border-box;
     float: right;
-    border-bottom: 10px solid #000;
-    border-left: 10px solid #000;
+    border-bottom: .6em solid #000;
+    border-left: .5em solid #000;
 }
 .navegacao{
     width: 20%;
