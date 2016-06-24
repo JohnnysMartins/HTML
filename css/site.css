@@ -1,31 +1,34 @@
 body{
 	font-family: "Crimson Text", serif;
 	background-color: #F2FFFC;
-    font-size: 20px;
+    font-size: 120%;
     line-height: 1.5;
+}
+h1{
+    text-transform: uppercase;
 }
 .titulo-principal{
     font-size: 60px;
 	font-family: "Open Sans Condensed", sans-serif;
 	text-align: center;
-	color: #F2FFFC;
+	color: #FFF;
 	background-color: #851944;
-    padding: 20px;
+    padding: 25px;
     margin: 0;
     border-bottom: 10px solid #000;
-    text-transform: uppercase;
 }
-div{
-    width:50%;
-    margin: 0 auto;
+.container {
+    width: 720px;
+    margin: 0px auto;
+    padding: 40px 40px 80px;
 }
 main a {
     color: #851944;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
+    clear: both;
 	font-family: "Open Sans Condensed", sans-serif;
-    float: both;
 }
 p{
 	text-align: justify;
@@ -49,20 +52,20 @@ blockquote{
     display: inline-block;
 }
 .icones-sociais a{
-    
+
     width: 40px;
     height: 40px;
     display: inline-block;
     text-indent: -9999px;
 }
 .github{
-    background-image: url(github.png);
+    background-image: url(C:/Users/johnn/projeto/projeto-bio/img/github.png);
 }
 .twitter{
-    background-image: url(twitter.png);
+    background-image: url(C:/Users/johnn/projeto/projeto-bio/img/twitter.png);
 }
 .linkid{
-    background-image: url(linkedin.png);
+    background-image: url(C:/Users/johnn/projeto/projeto-bio/img/linkedin.png);
 }
 nav h1{
     font-size: 30px;
@@ -71,7 +74,7 @@ nav h1{
 nav a {
     text-decoration: none;
     color: inherit;
-   
+
 }
 .rodape-pagina{
     background-color: #000;
@@ -82,35 +85,29 @@ article {
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
 }
-.a-mais{
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
-}
-.fiat{
-    float: right;
-}
-.petrobras{
-    float: left;
-}
-aside, img{
+aside, .minha-foto{
     box-sizing: border-box;
     float: right;
-    width:  15%;
     border-bottom: 10px solid #000;
     border-left: 10px solid #000;
 }
-aside{
-    clear: right;
-    box-sizing: border-box;
+.navegacao{
+    width: 20%;
+    position: absolute;
+    top: 310px;
+    right: 0;
 }
 main {
-    float: left;
-    width: 85%;
+    width: 80%;
 }
 footer{
     clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.minha-foto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }

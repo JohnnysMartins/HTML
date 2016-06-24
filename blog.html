@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>Blog - João da Silva</title>
-        <link rel="icon" href="favicon.png">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="bio.css">
+        <link rel="icon" href="img/favicon.pngf">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/blog.css">
          <!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
         <!-- carrega a fonte Open Sans Condensed na versão negrito, -->
@@ -16,50 +17,50 @@
     <body>
         <main>
         <h1 class="titulo-principal">Blog</h1>
-            <article>
-                <h2>O essencial de design responsivo</h2>
-                <time datetime="2016-06-16">16 de junho de 2016</time>
-                <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?</p>
-                <a class="a-mais" href="#">Leia mais!</a>
-                <footer>Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
-            </article>
-            <article>
-                <h2>Por que fazer páginas acessíveis?</h2>
-                <time datetime="2016-06-16">16 de junho de 2016</time>
-                <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive da própria W3C. Mas vale a pena investir nisso?</p>
-                <a class="a-mais" href="#">Leia mais!</a>
-                <footer>Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
-            </article>
-            <article>
-                <h2>JavaScript não obstrusivo</h2>
-                <time datetime="2016-06-16">16 de junho de 2016</time>
-                <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
-                <a class="a-mais" href="#">Leia mais!</a>
-                <footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
-            </article>
+            <div class="container">
+                <article>
+                    <h2>O essencial de design responsivo</h2>
+                    <time datetime="2016-06-16">16 de junho de 2016</time>
+                    <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?</p>
+                    <a class="leia-mais" href="#">Leia mais!</a>
+                    <footer>Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
+                </article>
+                <article>
+                    <h2>Por que fazer páginas acessíveis?</h2>
+                    <time datetime="2016-06-16">16 de junho de 2016</time>
+                    <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive da própria W3C. Mas vale a pena investir nisso?</p>
+                    <a class="leia-mais" href="#">Leia mais!</a>
+                    <footer>Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
+                </article>
+                <article>
+                    <h2>JavaScript não obstrusivo</h2>
+                    <time datetime="2016-06-16">16 de junho de 2016</time>
+                    <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
+                    <a class="leia-mais" href="#">Leia mais!</a>
+                    <footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
+                </article>
+            </div>
         </main>
-        <img src="eu.jpg" alt="João da Silva">
+         <img class="minha-foto" src="img/eu.jpg" alt="Foto de João da Silva">
         <aside class="navegacao">
             <nav>
                 <h1>João da Silva</h1>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">portfolio</a></li>
+                    <li><a href="bio.html">Home</a></li>
+                    <li><a href="portifolio.html">portfolio</a></li>
+                    <li><a href="#">Sobre mim</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
             <ul class="icones-sociais">
-                <li><a href="https://github.com/JohnnysMartins"><img src="github.png" alt="Github"></a></li>
-                <li><a href="https://twitter.com/martinsjohnn"><img src="twitter.png" alt="Twitter"></a></li>
-                <li><a href="https://br.linkedin.com/pub/joão-da-silva/32/4/508"><img src="linkedin.png"></a></li>
+                <li><a class="github" href="https://github.com/JohnnysMartins">Github</a></li>
+                <li><a class="twitter"href="https://twitter.com/martinsjohnn">Twitter</a></li>
+                <li><a class="linkid"href="https://br.linkedin.com/pub/joão-da-silva/32/4/508">LinkId</a></li>
             </ul>
         </aside>
-        <footer class="rodape-pagina">
+       <footer class="icones-sociais rodape-pagina">
             &copy; João da Silva 2016
-            <ul class="icones-sociais sociais-rodape">
-                <li><a href="https://github.com/JohnnysMartins"><img src="github.png" alt="Github"></a></li>
-                <li><a href="https://twitter.com/martinsjohnn"><img src="twitter.png" alt="Twitter"></a></li>
-                <li><a href="https://br.linkedin.com/pub/joão-da-silva/32/4/508"><img src="linkedin.png"></a></li>
-            </ul>
         </footer>
     </body>  
 </html>
