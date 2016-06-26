@@ -12,6 +12,7 @@ header {
   position: relative;
 }
 .foto-home {
+    border-radius: 50%;
     height: 200px;
 }
 .sutitulo-principal{
@@ -111,6 +112,7 @@ header {
     margin: 1em auto;
     display: block;
     text-align: center;
+    text-decoration: none;
 }
 .secao-inicio{
     padding: 3em;
