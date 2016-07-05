@@ -1,3 +1,8 @@
+.titulo-principal{
+    background-image: linear-gradient(to bottom, #f00, #888 80%, #000);
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+}
 .foto-home {
     height: 200px;
     border-radius: 50%;
@@ -24,8 +29,7 @@
 .saudacao em {
     color: #851944;
     font-size: 4em;
-    -webkit-transform: rotate(-5deg) skew(-10deg);
-            transform: rotate(-5deg) skew(-10deg);
+    transform: rotate(-5deg) skew(-10deg);
     display: inline-block;
 }
 .botao-index {
@@ -47,11 +51,15 @@
     font-size: 3em;
     text-transform: uppercase;
     margin-bottom: .5em;
+    text-shadow: 5px 5px #000;
 }
 .trabalhos {
     background-color: #3C1D3D;
     border-top: .5em solid #000;
     border-bottom: .5em solid #000;
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0, 0, 0, .1) 14px, rgba(0, 0, 0, .1) 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 .trabalhos h2 {
     color: #FFF;
@@ -107,14 +115,11 @@ html,body {
     height: 100%;
 }
 body {
-    -webkit-perspective: 6px;
-            perspective: 6px;
-    -webkit-perspective-origin: 50% 160px;
-            perspective-origin: 50% 160px;
+    perspective: 6px;
+    perspective-origin: 50% 160px;
 }
 .palavras-home {
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
+    transform-style: preserve-3d;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -194,25 +199,16 @@ body {
   opacity: .6;
 }
 .titulo-principal {
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
+    transform-style: preserve-3d;
     position: relative;
 }
 .banner{
     position: absolute;
     top: 0;
     right: 0;
-
     line-height: 1;
-
-    /* largura = 14em */
-    /* altura = 3.5em */
-    /* tx = .707 * h - .707 * w + w */
-    /* ty = -.707 * h */
-    -webkit-transform: translate(6.5765em, -2.4745em) rotate(45deg);
-            transform: translate(6.5765em, -2.4745em) rotate(45deg);
-    -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
+    transform: translate(6.5765em, -2.4745em) rotate(45deg);
+    transform-origin: 0 0;
 
     width: 14em;
     padding: 1em 0;
