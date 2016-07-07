@@ -6,21 +6,11 @@
     text-align: center;
     background-color: #E6E7E8;
 }
-.post-blog {
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-}
-.borda{
-    Height: 100px;
-    background-image: linear-gradient(to right, transparent, black, transparent);
+.post-blog + .post-blog{
+    padding-top: 1em;
+    margin-top: 1.5em;
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0), rgba(200, 200, 200, 1), rgba(200, 200, 200, 0));
     background-size: 100% 1px;
     background-repeat: no-repeat;
-    background-position: bottom center;
+
 }
-/*.borda{
-    min-height: 100%;
-    background-image: linear-gradient(to right, transparent, black, transparent);
-    background-size: 100% 1px;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-}*/
