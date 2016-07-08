@@ -139,3 +139,9 @@ main {
 .navegacao a{
     text-decoration: none;
 }
+main a:hover, main a:focus, footer a:hover, footer a:focus{
+    color: red;
+}
+.navegacao a:hover, navegacao a:focus{
+    text-shadow: 0 0 2px pink;
+}
